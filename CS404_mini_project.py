@@ -2,6 +2,8 @@ import random
 import time
 from typing import List
 
+#credit to chatGPT for coding assistance
+
 #generates a list of random integers of the given size
 def gen_random_list(list_size: int) -> List[int]:
     return [random.randint(0, 1000000) for _ in range(list_size)]
